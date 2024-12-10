@@ -1,0 +1,11 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Sorry Richard Hendricks, but 2 spaces are the best
+[*.{js,jsx,ts,tsx,json,yml,css,scss,md}]
+charset = utf-8
+indent_style = space
+indent_size = 2
